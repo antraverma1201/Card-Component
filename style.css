@@ -1,0 +1,107 @@
+body{
+    background-color: hsl(210deg 46.15% 94.9%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    text-align: center;
+    color: hsl(204.44deg 98.18% 21.57%);
+}
+.container{
+   display: flex;
+   padding: 1rem; 
+   justify-content: space-around;
+}
+.card1{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-img{
+    width: 300px;
+    display: block;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.content{
+    padding: 2px 15px 15px;
+}
+.content-head{
+    color: hsl(204.44deg 98.18% 21.57%);
+}
+.content-para{
+    font-size: 14px;
+}
+span:nth-child(2){
+    padding: 0 10px;
+}
+.icon-content{
+    font-size: 12px;
+    color: darkcyan;
+}
+.material-icons-outlined{
+    font-size: 18px !important;
+    padding: 0 12px;
+}
+.material-icons{
+    font-size: 18px !important;
+    padding: 0 12px;
+}
+
+.card2{
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-img-position{
+    width: 300px;
+    display: block;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+}
+.content-head-position{
+    position: absolute;
+    color: #ffffff;
+    top: 200px;
+}
+.content-para-position{
+    position: absolute;
+    color: #ffffff;
+    top: 230px;
+}
+.card3{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-img-between{
+    width: 300px;
+    display: block;
+}
+.content-top{
+    padding: 0px 15px;
+}
+.icons-flex{
+    display: flex;
+    justify-content: end;
+}
+.card6{
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flex-box{
+    display: flex;
+}
+.card-img-flex{
+    width: 130px;
+    display: block;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
